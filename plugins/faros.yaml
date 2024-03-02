@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: faros
 spec:
-  version: v0.0.30
+  version: v0.0.31
   platforms:
     - bin: bin/kubectl-faros.exe
-      uri: https://downloads.faros.sh/cluster-proxy/v0.0.30/kubectl-faros_0.0.30_windows_arm64.tar.gz
-      sha256: e94a57025312cfd1c014062d4915447f851f253eeac045e27c331d90431d1b9d
+      uri: https://downloads.faros.sh/cluster-proxy/v0.0.31/kubectl-faros_0.0.31_windows_arm64.tar.gz
+      sha256: a48c2c1d82b97c2454c6d4b2aa0300c4e04ee7ee7239eff6781d6f9d07a7c92d
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: bin/kubectl-faros.exe
-      uri: https://downloads.faros.sh/cluster-proxy/v0.0.30/kubectl-faros_0.0.30_windows_amd64.tar.gz
-      sha256: 96ce0b767dc622ca2b700b2b5e5544ac03dc13d12c812c76dddbcde34d131eff
+      uri: https://downloads.faros.sh/cluster-proxy/v0.0.31/kubectl-faros_0.0.31_windows_amd64.tar.gz
+      sha256: 4e6bb2414dc925a12209f83d68a3fe36ac9c2094e28997734e4755842ac02b66
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: bin/kubectl-faros
-      uri: https://downloads.faros.sh/cluster-proxy/v0.0.30/kubectl-faros_0.0.30_linux_arm64.tar.gz
-      sha256: 2128f936610ccab58205fa4c6ab5a590acb154913680225a48fe03c0659d9f9a
+      uri: https://downloads.faros.sh/cluster-proxy/v0.0.31/kubectl-faros_0.0.31_linux_arm64.tar.gz
+      sha256: df6b6e4bbb322ee2e4ea63d61f724bb0ad735a5751359055b4afba0775e635ec
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: bin/kubectl-faros
-      uri: https://downloads.faros.sh/cluster-proxy/v0.0.30/kubectl-faros_0.0.30_linux_amd64.tar.gz
-      sha256: 4612974bd02743de0ebaf20107e5777e07d35b234f2baf781ce973177b9ce923
+      uri: https://downloads.faros.sh/cluster-proxy/v0.0.31/kubectl-faros_0.0.31_linux_amd64.tar.gz
+      sha256: 2ed16b69c0fee17a98e94db6173624ff62293e167db1ab8b20adff04cd1f8355
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: bin/kubectl-faros
-      uri: https://downloads.faros.sh/cluster-proxy/v0.0.30/kubectl-faros_0.0.30_darwin_arm64.tar.gz
-      sha256: f875bc68acdbc2bce3408be8b01b6d3c25c18fd3dfc453d027167c12a10f1e6f
+      uri: https://downloads.faros.sh/cluster-proxy/v0.0.31/kubectl-faros_0.0.31_darwin_arm64.tar.gz
+      sha256: 53347c3cbb6bdd30a19ebc4255f828758989cd319be458b694bfbeb1e97ced36
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: bin/kubectl-faros
-      uri: https://downloads.faros.sh/cluster-proxy/v0.0.30/kubectl-faros_0.0.30_darwin_amd64.tar.gz
-      sha256: 9457c1a46760c03e29105740d06a7497aafbb6c2eea33e2f10ee89b13ec5e9f4
+      uri: https://downloads.faros.sh/cluster-proxy/v0.0.31/kubectl-faros_0.0.31_darwin_amd64.tar.gz
+      sha256: aa70140ddb4826a1d209d3bfbba65aebef28b58819cbd3edcec6f23cff4c8fcb
       selector:
         matchLabels:
           os: darwin
