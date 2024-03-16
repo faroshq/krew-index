@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: kcp-ws
 spec:
-  version: v0.0.56
+  version: v0.0.57
   platforms:
     - bin: bin/kubectl-ws.exe
-      uri: https://downloads.faros.sh/faros/cli/kcp/ws/v0.0.56/kubectl-kcp-ws_0.0.56_windows_arm64.tar.gz
-      sha256: b905ab98068337ae50db5589916e5216822f91c94e48332a12ec41a984943d66
+      uri: https://downloads.faros.sh/cli/kcp/ws/v0.0.57/kubectl-kcp-ws_0.0.57_windows_arm64.tar.gz
+      sha256: ef0666eedca7bd4bf766c51a8654614917551d7fac1fb89016fe91100e95121a
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: bin/kubectl-ws.exe
-      uri: https://downloads.faros.sh/faros/cli/kcp/ws/v0.0.56/kubectl-kcp-ws_0.0.56_windows_amd64.tar.gz
-      sha256: 601b4016090cd5c3a5cabb87c041cfddc5db7c39a038cdf33d77ab961822de81
+      uri: https://downloads.faros.sh/cli/kcp/ws/v0.0.57/kubectl-kcp-ws_0.0.57_windows_amd64.tar.gz
+      sha256: 70655f9d29a96bc51d1343e572a77f1b917a438f59bd48315891b6a5d6d1633c
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: bin/kubectl-ws
-      uri: https://downloads.faros.sh/faros/cli/kcp/ws/v0.0.56/kubectl-kcp-ws_0.0.56_linux_arm64.tar.gz
-      sha256: 814c028350c91eae1a3144e30da23eed5d372fea84d64eab45c7fcac296a0719
+      uri: https://downloads.faros.sh/cli/kcp/ws/v0.0.57/kubectl-kcp-ws_0.0.57_linux_arm64.tar.gz
+      sha256: c2653b358ffe5c92c3babc9066467c7699d79ef3ff61e0fa61094efd676606e2
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: bin/kubectl-ws
-      uri: https://downloads.faros.sh/faros/cli/kcp/ws/v0.0.56/kubectl-kcp-ws_0.0.56_linux_amd64.tar.gz
-      sha256: f00b1f81d225705f4b9450c6b9857978e337773f312f5de66340c5c3fa842b54
+      uri: https://downloads.faros.sh/cli/kcp/ws/v0.0.57/kubectl-kcp-ws_0.0.57_linux_amd64.tar.gz
+      sha256: 5e5151f4d1e5ba80c27c2cafcc0a1de50805594c04d6044c52df705561599592
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: bin/kubectl-ws
-      uri: https://downloads.faros.sh/faros/cli/kcp/ws/v0.0.56/kubectl-kcp-ws_0.0.56_darwin_arm64.tar.gz
-      sha256: 9a52a1a7573f58de53bbefc47b46e23d86b3fb48f4a4ddc0622b410b7b806907
+      uri: https://downloads.faros.sh/cli/kcp/ws/v0.0.57/kubectl-kcp-ws_0.0.57_darwin_arm64.tar.gz
+      sha256: f6f8dcf9aff02420da7e3e3c751367fd347a13fb951f2a276fd689e93437fd31
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: bin/kubectl-ws
-      uri: https://downloads.faros.sh/faros/cli/kcp/ws/v0.0.56/kubectl-kcp-ws_0.0.56_darwin_amd64.tar.gz
-      sha256: 7317308ae96d1b3fc283cfd519e71b874a98e1263331e557bf63f15ad3431278
+      uri: https://downloads.faros.sh/cli/kcp/ws/v0.0.57/kubectl-kcp-ws_0.0.57_darwin_amd64.tar.gz
+      sha256: 53c0c52f3510a51bd6d880fefaf7416f698b85f22eec6e8acf59cde54e0ed549
       selector:
         matchLabels:
           os: darwin
