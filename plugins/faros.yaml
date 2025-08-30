@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: faros
 spec:
-  version: v0.1.30
+  version: v0.1.31
   platforms:
     - bin: kubectl-faros.exe
-      uri: https://downloads.faros.sh/cli/faros/v0.1.30/kubectl-faros_0.1.30_windows_arm64.tar.gz
-      sha256: bf2611d75d456c44c4b7d4459e36bcdee94fb103d9107ec873939715ecdb19ce
+      uri: https://downloads.faros.sh/cli/faros/v0.1.31/kubectl-faros_0.1.31_windows_arm64.tar.gz
+      sha256: 6659a9f632fd02403b158b6d93f3c724198c1920395737769a2f7ef20e5e1f26
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kubectl-faros.exe
-      uri: https://downloads.faros.sh/cli/faros/v0.1.30/kubectl-faros_0.1.30_windows_amd64.tar.gz
-      sha256: f8906ef1a265156486b4fe934217cc8417e3654bd8afc538bbe3e7e1186fb1dd
+      uri: https://downloads.faros.sh/cli/faros/v0.1.31/kubectl-faros_0.1.31_windows_amd64.tar.gz
+      sha256: dded8bc72216d05e732867c10af44dcb5d3a21e7705ea47ad24389d2ba6c27d6
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kubectl-faros
-      uri: https://downloads.faros.sh/cli/faros/v0.1.30/kubectl-faros_0.1.30_linux_arm64.tar.gz
-      sha256: a9f342f32346036f91ef2295e78b37ab0137cc892ae3de001f5237490a60cef4
+      uri: https://downloads.faros.sh/cli/faros/v0.1.31/kubectl-faros_0.1.31_linux_arm64.tar.gz
+      sha256: 712134487ff905ce4287f2a188b3d326628a369f0fd969110b5e890b30bddcde
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-faros
-      uri: https://downloads.faros.sh/cli/faros/v0.1.30/kubectl-faros_0.1.30_linux_amd64.tar.gz
-      sha256: 34826a982fdb362a86fe1d0aafe7e9faedd5d9767128df178cdad07e8375b5e9
+      uri: https://downloads.faros.sh/cli/faros/v0.1.31/kubectl-faros_0.1.31_linux_amd64.tar.gz
+      sha256: d444c141225f0d241aa2563e0c3c3cb80c28463d2eb247c0cf368db953e14fbe
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-faros
-      uri: https://downloads.faros.sh/cli/faros/v0.1.30/kubectl-faros_0.1.30_darwin_arm64.tar.gz
-      sha256: 78e0f610396402199f5179761e3b77f3740e5be93a64976f0d7414fc435a919b
+      uri: https://downloads.faros.sh/cli/faros/v0.1.31/kubectl-faros_0.1.31_darwin_arm64.tar.gz
+      sha256: eb96863e852efa89df3ea2cfd6cb2be5da90bf326fe6040e8606b01edc73a577
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kubectl-faros
-      uri: https://downloads.faros.sh/cli/faros/v0.1.30/kubectl-faros_0.1.30_darwin_amd64.tar.gz
-      sha256: b3bd751f6cfa0a842f93a7f41fd1aff9d43161704f970c88682e2979c1e77dca
+      uri: https://downloads.faros.sh/cli/faros/v0.1.31/kubectl-faros_0.1.31_darwin_amd64.tar.gz
+      sha256: 38796141e8250afb1b9dd88457d37476ccab5b57e8a248aa8d1948060314dbc4
       selector:
         matchLabels:
           os: darwin
