@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: kedge
 spec:
-  version: v0.0.97
+  version: v0.0.98
   platforms:
     - bin: kubectl-kedge.exe
-      uri: https://downloads.faros.sh/cli/kedge/v0.0.97/kubectl-kedge_windows_arm64.tar.gz
-      sha256: 4b054c7aaee0da793165451fefc448fe517f916e18a797cdf5fca501dcf14070
+      uri: https://downloads.faros.sh/cli/kedge/v0.0.98/kubectl-kedge_windows_arm64.tar.gz
+      sha256: 6c3da574fe16c5c9c2c2cf91af52207e460dbdad5ba428931812a02e1af32a0a
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kubectl-kedge.exe
-      uri: https://downloads.faros.sh/cli/kedge/v0.0.97/kubectl-kedge_windows_amd64.tar.gz
-      sha256: 0a2d424c2cef7add5a49719b7ec81418a731a92bd7dc83b2e9376008794bbd20
+      uri: https://downloads.faros.sh/cli/kedge/v0.0.98/kubectl-kedge_windows_amd64.tar.gz
+      sha256: 80a8a790592de2354635b0ddfc9aa97ddafd7093be7ffe69986e855c79e6cc72
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kubectl-kedge
-      uri: https://downloads.faros.sh/cli/kedge/v0.0.97/kubectl-kedge_linux_arm64.tar.gz
-      sha256: ef17e330781eaf77937a2baca20427d4fe70a05d073f2566d1cc6c53bc73ccd2
+      uri: https://downloads.faros.sh/cli/kedge/v0.0.98/kubectl-kedge_linux_arm64.tar.gz
+      sha256: babe45c5d001899cccaca30718763597c2b995b4c1ee303d1b27d079a5131444
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-kedge
-      uri: https://downloads.faros.sh/cli/kedge/v0.0.97/kubectl-kedge_linux_amd64.tar.gz
-      sha256: 4e852dbe61308253cc5e5d018f9bed7e84d5a53f1131319bd7e69ff814a7a7be
+      uri: https://downloads.faros.sh/cli/kedge/v0.0.98/kubectl-kedge_linux_amd64.tar.gz
+      sha256: 21b74e8aa45bb571c8b06b088a6236a6573961b4ab94820fd2913d11796bc5c6
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-kedge
-      uri: https://downloads.faros.sh/cli/kedge/v0.0.97/kubectl-kedge_darwin_arm64.tar.gz
-      sha256: e6ac1d4d25f71bdb8be0acbbcbd6db44c46cd6c4535f14c191cbd1b0156c69fb
+      uri: https://downloads.faros.sh/cli/kedge/v0.0.98/kubectl-kedge_darwin_arm64.tar.gz
+      sha256: c60646c70d5d5ab4783f7f176c9ef4140a12ae8fa841955322b1816efd021c9c
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kubectl-kedge
-      uri: https://downloads.faros.sh/cli/kedge/v0.0.97/kubectl-kedge_darwin_amd64.tar.gz
-      sha256: f94adb91cf69a443a3ad9a021556cfa334c7ac7bf58fa09d94c1bc58c33ce1aa
+      uri: https://downloads.faros.sh/cli/kedge/v0.0.98/kubectl-kedge_darwin_amd64.tar.gz
+      sha256: 0b4636ed45d07c791192bf248503fd3bcda6b15b5e1cee9bbf8b313e449f5814
       selector:
         matchLabels:
           os: darwin
