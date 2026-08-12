@@ -4,54 +4,54 @@ kind: Plugin
 metadata:
   name: faros
 spec:
-  version: v0.1.124
+  version: v0.0.109
   platforms:
     - bin: kubectl-faros.exe
-      uri: https://downloads.faros.sh/cli/faros/v0.1.124/kubectl-faros_0.1.124_windows_arm64.tar.gz
-      sha256: ff4faeb51acb22fa774523e3811d6370f25d8d406a2a4b327b9caa6634348dc9
+      uri: https://downloads.faros.sh/cli/faros/v0.0.109/kubectl-faros_Windows_x86_64.tar.gz
+      sha256: cc5a144455cc0f7ecca250f4984873696dc2ac071b7f8948e91179390d0310f1
       selector:
         matchLabels:
           os: windows
-          arch: arm64
+          arch: amd64
     - bin: kubectl-faros.exe
-      uri: https://downloads.faros.sh/cli/faros/v0.1.124/kubectl-faros_0.1.124_windows_amd64.tar.gz
-      sha256: c1fd77c00a4899e3c7bf9519972cd2bb13517fec7176ecb954775f03c6da545c
+      uri: https://downloads.faros.sh/cli/faros/v0.0.109/kubectl-faros_Windows_arm64.tar.gz
+      sha256: 1da88d5faf2fb97e4410c73cafb3795de5f10f4b94f017dfc5fce65ad0d60368
       selector:
         matchLabels:
           os: windows
-          arch: amd64
-    - bin: kubectl-faros
-      uri: https://downloads.faros.sh/cli/faros/v0.1.124/kubectl-faros_0.1.124_linux_arm64.tar.gz
-      sha256: c139920d5a5ec76203c7b703d38b9b5ca192cb79cb623cc72181d8104cd2b469
-      selector:
-        matchLabels:
-          os: linux
           arch: arm64
     - bin: kubectl-faros
-      uri: https://downloads.faros.sh/cli/faros/v0.1.124/kubectl-faros_0.1.124_linux_amd64.tar.gz
-      sha256: dd77f6806dc4828cff02f343f0dd02878de0f59f1674729e0d76ea8ac4c0c7ea
+      uri: https://downloads.faros.sh/cli/faros/v0.0.109/kubectl-faros_Linux_x86_64.tar.gz
+      sha256: 15a19dd99902ee3789719ecab9cc0d9936b176ebe3e3f02edf7bfcc5a109c224
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-faros
-      uri: https://downloads.faros.sh/cli/faros/v0.1.124/kubectl-faros_0.1.124_darwin_arm64.tar.gz
-      sha256: be7454e6eb85d78ca6f08ada27f9bf8106e287be35628cadbc5411831d0778fb
+      uri: https://downloads.faros.sh/cli/faros/v0.0.109/kubectl-faros_Linux_aarch64.tar.gz
+      sha256: 04e203b04e1d4ff7237447e34f864db3aa25325bb2c509583ee4a48b6a8e635b
       selector:
         matchLabels:
-          os: darwin
+          os: linux
           arch: arm64
     - bin: kubectl-faros
-      uri: https://downloads.faros.sh/cli/faros/v0.1.124/kubectl-faros_0.1.124_darwin_amd64.tar.gz
-      sha256: 78412c4f471a0d195a2bc0be92f9f156d6d346ecaa107d95946f4aecb9a6654b
+      uri: https://downloads.faros.sh/cli/faros/v0.0.109/kubectl-faros_Darwin_x86_64.tar.gz
+      sha256: 394a4db21a861cdb31777698ceb6c44218adefb413ff786b03a7081e159afefc
       selector:
         matchLabels:
           os: darwin
           arch: amd64
-  shortDescription: Manage Faros workspaces and remote clusters from the command line.
+    - bin: kubectl-faros
+      uri: https://downloads.faros.sh/cli/faros/v0.0.109/kubectl-faros_Darwin_arm64.tar.gz
+      sha256: df525230681160a55922e9a8ac9266786760a1604104d0bed71d836283e46b23
+      selector:
+        matchLabels:
+          os: darwin
+          arch: arm64
+  shortDescription: Manage faros edges and workloads from the command line.
   homepage: https://faros.sh/
   description: |
-    Manage Faros workspaces and remote clusters from the command line.
-    kubectl faros login - Log in to a Faros workspace
-    kubectl get workspaces - List all workspaces
-    kubectl faros ws - Manage workspaces
+    Manage faros edges and workloads from the command line.
+    kubectl faros login - Log in to a faros hub
+    kubectl faros ws - Navigate kcp workspaces
+    kubectl faros edge - Manage edges
